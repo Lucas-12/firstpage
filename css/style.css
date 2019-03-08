@@ -10,7 +10,7 @@ body{
     content: '';
     height: 100vh;
     width: 100%;
-    background-image: url(../img/trabajo.jpg);
+    background-image: url(../img/escritorio.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -36,7 +36,7 @@ body{
     z-index: 1;
     top: 1%;
     left: 50%;
-    margin-top: 3px;
+    margin-top: 1px;
     margin-left: -150px;
     text-align: center;
     width: 300px;
@@ -45,20 +45,23 @@ body{
 }
 
 .header-content .logo{
-    width: 800px;
-    height: 350px;
-    margin-left: -220px;
+    width: 1000px;
+    height: 450px;
+    margin-left: -320px;
     margin-top: 2px; 
 }
 
 .title{
     font-family: 'Arvo', serif;
     font-size: 2rem;
+    font-weight: bold;
 }
+
 
 .text{
     line-height: 1.5;
-    margin-top: 1rem
+    margin-top: 1rem;
+    font-weight: bold;
 }
 
 .container{
@@ -68,10 +71,18 @@ body{
     padding: 4rem 1rem;
 }
 
+.contenedor{
+    max-width: 960px;
+    margin: auto;
+    overflow: hidden;
+    padding: 1rem 1rem;    
+}
+
 .grid-3{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 20px;
+    padding-bottom: 30px;
 }
 
 .grid-2{
@@ -95,12 +106,28 @@ body{
     color: white;
 }
 
-.services{
-    padding: 2rem 0;
+.decoration{
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.contact{
+    padding: 0 0;
+}
+
+.con{
+    font-size: 1.5rem;
+    padding-bottom: 0px;
+}
+
+.contact p{
+    font-weight: bold;
 }
 
 footer{
     padding: 2.2rem;
+    background: #5e0000;
 }
 
 footer p{
@@ -114,30 +141,50 @@ footer p{
 
     .header-content {
         top:5%;
-        margin-top: 5px; 
+        margin-top: 2px; 
     }
     .header-content .logo {
-        height: 180px;
-        width: 400px;
+        height: 400px;
+        width: 650px;
+        margin-left: -160px;
+        margin-top: 0px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        padding-top: 0%;
     }
     .header-content .text{
-        display: none;
-        text-align: center;
+        text-align: auto;
+        margin-top: 0;
     }
+    .title{
+        font-size: 1.5rem;
+    }
+
     .grid-3, .grid-2{
+        display: grid;
         grid-template-columns: 1fr;
     }
-    .services{
-        padding: 1rem;
+    .contact{
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
     }
 }
 
 @media(max-height: 500px){
-    .header-content .title, .header-content .text{
+    .header-content .title{
         display: none;
     }
     .header-content{
         top: 0;
+    }
+    .header-content .logo {
+        height: 330px;
+        width: 600px;
+        margin-left: -150px;
+        margin-top: 0px;
+        margin-bottom: 0%;
+        padding-bottom: 0%;
+        padding-top: 0%;
     }
 }
 
