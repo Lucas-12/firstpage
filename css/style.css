@@ -148,8 +148,7 @@ footer p{
         margin-bottom: 0%;
         padding-bottom: 0%;
         padding-top: 0%;
-        animation-iteration-count: initial;
-        animation-duration: 2s;
+        animation-duration: 3s;
     }
     .header-content .title{
         padding: 0%;
@@ -179,9 +178,9 @@ footer p{
         padding: 0;
     }
     .header-content .logo {
-        height: 200px;
-        width: 400px;
-        margin-left: -45px;
+        height: 230px;
+        width: 500px;
+        margin-left: -85px;
         margin-top: 0px;
         margin-bottom: 0%;
         padding-bottom: 0%;
@@ -189,8 +188,8 @@ footer p{
     }
     .header-content .title{
         padding: 0%;
-        margin-bottom: 0;
-        font-size: 1rem;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
     }
     .header-content .text{
         text-align: 0;
@@ -198,8 +197,8 @@ footer p{
         margin-bottom: 0;
         padding-top: 0;
         padding-bottom: 0;
-        line-height: 1;
-        font-size: 0.7rem;
+        line-height: 1.2;
+        font-size: 0.8rem;
         margin-left: 10px;
         margin-right: 10px;
     }
