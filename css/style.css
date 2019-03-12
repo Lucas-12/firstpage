@@ -18,6 +18,8 @@ body{
     filter: blur(10px);
     -webkit-filter: blur(10px);
     transition: all 1000ms;
+    min-height: 700px;
+    min-width: 420px;
 }
 
 .header:hover::after{
